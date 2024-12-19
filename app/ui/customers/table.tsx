@@ -13,7 +13,7 @@ export default async function CustomersTable({
 }) {
   return (
     <div className="w-full">
-      <h1 className={`${lusitana('700').fontFamily} mb-8 text-xl md:text-2xl`}>
+      <h1 className={`${lusitana.className} mb-8 text-xl md:text-2xl`}>
         Customers
       </h1>
 
