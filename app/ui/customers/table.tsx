@@ -8,15 +8,15 @@ import {
 
 export default async function CustomersTable({
   customers,
-  const fontClass = lusitana("400"); // or "700" depending on your design choice
 }: {
   customers: FormattedCustomersTable[];
 }) {
   return (
     <div className="w-full">
-      <h1 className={`${fontClass} mb-8 text-xl md:text-2xl`}>
+      <h1 style={{ fontFamily: lusitana().fontFamily, fontWeight: lusitana().fontWeight }} className="mb-8 text-xl md:text-2xl">
         Customers
       </h1>
+
       <Search placeholder="Search customers..." />
       <div className="mt-6 flow-root">
         <div className="overflow-x-auto">
