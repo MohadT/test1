@@ -7,6 +7,6 @@ export const lusitana = (weight:? '400' | '700') => {
       fontFamily: '"Lusitana", serif',
       fontWeight: weight || "400",
       subsets: ['latin'],  // You can specify other subsets like 'latin-ext' if needed
-     className: `font-[${weight}]`,
+     
     };
   };
